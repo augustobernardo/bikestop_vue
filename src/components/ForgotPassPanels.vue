@@ -1,0 +1,37 @@
+<template>
+    <div class="panels-container">
+        <div class="panel left-panel">
+            <div class="content">
+                <h3>{{ title }}</h3>
+                <p>
+                    Volte para a tela de Login para entrar ou criar uma
+                    conta.
+                </p>
+                <button class="btn transparent" v-on:click="$event => { backToLogin(); }" id="sign-up-btn">
+                    Voltar
+                </button>
+            </div>
+            <img src="@/assets/img/forgot_password.svg" class="image" alt="" />
+        </div>
+    </div>
+</template>
+
+<script> 
+
+export default {
+    name: "AuthView",
+    data() {
+        return {
+            title: "Lembrou da sua Senha ?"
+        }
+    },
+    methods: {
+        backToLogin() {
+            this.$router.push({ name: 'home' });
+        }
+    }
+};
+
+</script>
+
+<style lang="scss" src="@/scss/style.scss"></style>
