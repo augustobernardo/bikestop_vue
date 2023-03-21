@@ -10,7 +10,7 @@
                 Entrar
             </button>
         </div>
-        <img src="@/assets/img/biking-Blue.svg" class="image" alt="" />
+        <img src="@/../public/img/biking-Blue.svg" class="image" alt="" />
     </div>
 </template>
 

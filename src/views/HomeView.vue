@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import FormRegLog from "@/components/FormRegAndLog.vue";
+import FormRegLog from "@/components/homeComponents/FormRegAndLog.vue";
 
 export default {
   name: "HomeView",

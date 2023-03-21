@@ -5,36 +5,39 @@ export default class AlertClass {
     static success(message) {
         Swal.fire({
             icon: 'success',
-            title: message,
+            title: 'Tudo certo!',
+            text: message,
             showConfirmButton: false,
-            timer: 1500
+            timer: 1800
         });
     }
 
     static error(message) {
         Swal.fire({
             icon: 'error',
-            title: message,
+            title: 'Oops...',
+            text: message,
             showConfirmButton: false,
-            timer: 1500
+            timer: 1800
         });
     }
 
     static warning(message) {
         Swal.fire({
             icon: 'warning',
-            title: message,
-            showConfirmButton: false,
-            timer: 1500
+            title: 'Espera aí...',
+            text: message,
+            showConfirmButton: true,
         });
     }
 
     static info(message) {
         Swal.fire({
             icon: 'info',
-            title: message,
+            title: 'Se liga aí...',
+            text: message,
             showConfirmButton: false,
-            timer: 1500
+            timer: 1800
         });
     }
 
@@ -43,7 +46,7 @@ export default class AlertClass {
             icon: 'question',
             title: message,
             showConfirmButton: false,
-            timer: 1500
+            timer: 1800
         });
     }
 

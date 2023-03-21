@@ -5,11 +5,10 @@
 </template>
 
 <script>
-/* import HomeView from './views/HomeView.vue';
-import ForgotPassView from './views/ForgotPassView.vue';
- */
+
 export default {
-  name: 'App'
+  name: 'App',
+
 };
 </script>
 

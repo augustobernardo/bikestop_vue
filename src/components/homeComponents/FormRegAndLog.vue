@@ -15,10 +15,10 @@
 </template>
 
 <script>
-import SignInForm from "@/components/SignInForm.vue";
-import SignUpForm from "@/components/SignUpForm.vue";
-import NewHere from "@/components/NewHere.vue";
-import AreMember from "@/components/AreMember.vue";
+import SignInForm from "@/components/homeComponents/SignInForm.vue";
+import SignUpForm from "@/components/homeComponents/SignUpForm.vue";
+import NewHere from "@/components/homeComponents/NewHere.vue";
+import AreMember from "@/components/homeComponents/AreMember.vue";
 
 export default {
     name: "FormRegAndLog",
