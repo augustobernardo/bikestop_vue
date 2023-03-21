@@ -10,7 +10,7 @@
                 Voltar
             </button>
         </div>
-        <img src="@/../public/img/forgot_password.svg" class="image" alt="" />
+        <img src="@/assets/svg/forgotPass.svg" class="image" alt="" />
     </div>
 </template>
 

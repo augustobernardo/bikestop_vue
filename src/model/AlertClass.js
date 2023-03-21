@@ -1,5 +1,5 @@
 import Swal from 'sweetalert2';
-import Icon from '../assets/img/sendEmail.svg';
+import SendEmailIcon from '@/assets/svg/sendEmail.svg';
 
 export default class AlertClass {
 
@@ -7,7 +7,7 @@ export default class AlertClass {
     static sendEmail(message) {
         Swal.fire({
             title: 'Showw!!!',
-            imageUrl: Icon,
+            imageUrl: SendEmailIcon,
             imageWidth: 250,
             imageHeight: 250,
             text: message,
