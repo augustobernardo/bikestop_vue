@@ -16,7 +16,7 @@
         </div>
         <div class="input-field">
             <i class="fas fa-lock">
-                <fa-icon :icon="['fas', 'lock']"/>
+                <fa-icon :icon="['fas', 'key']"/>
             </i>
             <input type="password" v-model="userPass" id="userPassReg" placeholder="Senha" />
         </div>
