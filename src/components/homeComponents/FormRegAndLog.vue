@@ -17,8 +17,8 @@
 <script>
 import SignInForm from "@/components/homeComponents/SignInForm.vue";
 import SignUpForm from "@/components/homeComponents/SignUpForm.vue";
-import NewHere from "@/components/homeComponents/NewHere.vue";
-import AreMember from "@/components/homeComponents/AreMember.vue";
+import NewHere    from "@/components/homeComponents/NewHere.vue";
+import AreMember  from "@/components/homeComponents/AreMember.vue";
 
 export default {
     name: "FormRegAndLog",

@@ -20,6 +20,7 @@
 </template>
 
 <script>
+import AlertClass from "@/model/AlertClass";
 
 export default {
     name: "ForgotPassForm",
@@ -30,7 +31,9 @@ export default {
     },
     methods: {
         forgotPass() {
-            console.log("forgotPass");
+            // console.log("forgotPass");
+            AlertClass.sendEmail('Email enviado com sucesso.');
+
         }
     }
 }

@@ -10,7 +10,7 @@
                 Criar conta
             </button>
         </div>
-        <img src="@/../public/img/bike_ride-Blue.svg" class="image" alt="" />
+        <img src="@/assets/svg/bikeRiding.svg" class="image" alt="" />
     </div>
 </template>
 

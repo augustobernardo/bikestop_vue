@@ -1,6 +1,20 @@
 import Swal from 'sweetalert2';
+import Icon from '../assets/img/sendEmail.svg';
 
 export default class AlertClass {
+
+
+    static sendEmail(message) {
+        Swal.fire({
+            title: 'Showw!!!',
+            imageUrl: Icon,
+            imageWidth: 250,
+            imageHeight: 250,
+            text: message,
+            showConfirmButton: false,
+            timer: 3500
+        });
+    }
 
     static success(message) {
         Swal.fire({
