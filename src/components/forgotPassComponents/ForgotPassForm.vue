@@ -3,8 +3,10 @@
         <h1 class="title-txt-login">BikeStop</h1>
         <h2 class="title">Esqueci minha Senha</h2>
         <div class="input-field">
-            <i class="fas fa-envelope"></i>
-            <input type="text" id="emailAuth" placeholder="Email" />
+            <i class="fas fa-envelope">
+                <fa-icon :icon="['fas', 'envelope']"/>
+            </i>
+            <input type="text" v-model="emailAuth" id="emailAuth" placeholder="Email" />
         </div>
         <p class="social-text">
             Após validar o email, você recceberá email com uma senha provisória
