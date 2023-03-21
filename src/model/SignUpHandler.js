@@ -28,7 +28,7 @@ export default class SignUpHandler {
             return false;
         }
 
-        AlertClass.success("Formulário enviado com sucesso!");
+        AlertClass.success("Cadastro realizado com sucesso!");
         return true;
     }
 

@@ -23,7 +23,7 @@ export default class LoginHandler {
             return false;
         }
 
-        AlertClass.success("Formulário enviado com sucesso!");
+        AlertClass.success("Login realizado com sucesso!");
         return true;
     }
 
