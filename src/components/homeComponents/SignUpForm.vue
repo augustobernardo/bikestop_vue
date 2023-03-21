@@ -29,6 +29,7 @@
 import AlertClass from "@/model/AlertClass";
 import FormController from "@/model/FormHandler";
 
+
 export default {
     name: "SignUpForm",
     data() {
